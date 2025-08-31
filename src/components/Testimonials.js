@@ -9,7 +9,7 @@ export default function Testimonials() {
         <div className="grid md:grid-cols-2 gap-10">
           {templateConfig.testimonials.map((testimonial, idx) => (
             <div key={idx} className="bg-white p-8 rounded-2xl shadow-xl border border-blue-200 hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-              <p className="text-gray-700 italic text-lg mb-4">"{testimonial.text}"</p>
+              <p className="text-gray-700 italic text-lg mb-4">&quot;{testimonial.text}&quot;</p>
               <span className="font-semibold text-cyan-700">- {testimonial.name}</span>
             </div>
           ))}
